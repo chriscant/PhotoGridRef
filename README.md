@@ -8,7 +8,7 @@ Example grid reference: `NY 27332 33320`
 The accuracy of the grid reference is primarily determined by the accuracy of the GPS reading in your phone or camera.
 In many cases it may be best to express as a 6 figure grid reference eg `NY273333` ie by removing the last two digits of each group.
 
-![PhotoGridRef screenshot](bin/PhotoGridRef-Screenshot1.png)
+![PhotoGridRef screenshot](https://raw.githubusercontent.com/chriscant/PhotoGridRef/master/docs/PhotoGridRef-Screenshot1.png)
 
 Overview:
 * Once the tool is installed, right-click on a photo in Windows Explorer and select *Grid Ref*.
