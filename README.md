@@ -8,13 +8,15 @@ Example grid reference: `NY 27332 33320`
 The accuracy of the grid reference is primarily determined by the accuracy of the GPS reading in your phone or camera.
 In many cases it may be best to express as a 6 figure grid reference eg `NY273333` ie by removing the last two digits of each group.
 
+![PhotoGridRef screenshot](bin/PhotoGridRef-Screenshot1.png)
+
 Overview:
 * Once the tool is installed, right-click on a photo in Windows Explorer and select *Grid Ref*.
 * If the Shift key is held down, then Eastings and Northings are found instead, eg `327332,533320`
 * If the Control key is held down, the location is shown in the default browser at streetmap.co.uk instead
 
 Instructions:
-* To use the tool [download and save PhotoGridRef.exe](bin/PhotoGridRef.exe)
+* To use the tool [download and save PhotoGridRef.exe](https://github.com/chriscant/PhotoGridRef/raw/master/bin/PhotoGridRef.exe) - or [from here](http://phdcc.com/download/PhotoGridRef.exe)
 * Save `PhotoGridRef.exe` on your computer.
 * Double-click to install the context menu handler.
 * After that, right-clicking on an image file will include *Grid Ref* on the context menu;
