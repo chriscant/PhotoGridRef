@@ -19,7 +19,7 @@ In many cases it may be best to express as a 6 figure grid reference eg `NY27333
 
 * Once the tool is installed, right-click on a photo in Windows Explorer and select *Grid Ref*.
 * If the Shift key is held down, then Eastings and Northings are found instead, eg `327332,533320`
-* If the Control key is held down, the location is shown in the default browser at streetmap.co.uk instead
+* If the Control key is held down, the location is shown in the default browser at streetmap.co.uk instead (only works in GB)
 
 ## Instructions
 
