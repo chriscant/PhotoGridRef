@@ -7,7 +7,7 @@ Grid Reference for a JPG file in Windows, if the photo has suitable GPS informat
 The Grid Reference is also copied to the clipboard, ready for pasting into a recording spreadsheet or website.
 
 * Example GB grid reference: `NY 27332 33320`, copied to the clipboard as `NY2733233320`.
-* Example Irish grid reference: `NY 27332 33320`, copied to the clipboard as `NY2733233320`.
+* Example Irish grid reference: `J 34386 74590`, copied to the clipboard as `J3438674590`.
 * Latitude, Longitude and other details such as [tetrad](https://www.bto.org/volunteer-surveys/birdatlas/methods/correct-grid-references) are also listed.
 
 The accuracy of the grid reference is primarily determined by the accuracy of the GPS reading in your phone or camera.
