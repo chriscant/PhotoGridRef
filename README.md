@@ -1,10 +1,14 @@
 PhotoGridRef
 ============
 
-This tool displays a GB Grid Reference for a JPG file in Windows, if the photo has suitable GPS information.
+This tool displays a [GB](https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid) 
+or [Irish](https://en.wikipedia.org/wiki/Irish_grid_reference_system)
+Grid Reference for a JPG file in Windows, if the photo has suitable GPS information.
 The Grid Reference is also copied to the clipboard, ready for pasting into a recording spreadsheet or website.
-Example grid reference: `NY 27332 33320`.
-Latitude, Longitude and other details such as [tetrad](https://www.bto.org/volunteer-surveys/birdatlas/methods/correct-grid-references) are also listed.
+
+* Example GB grid reference: `NY 27332 33320`, copied to the clipboard as `NY2733233320`.
+* Example Irish grid reference: `NY 27332 33320`, copied to the clipboard as `NY2733233320`.
+* Latitude, Longitude and other details such as [tetrad](https://www.bto.org/volunteer-surveys/birdatlas/methods/correct-grid-references) are also listed.
 
 The accuracy of the grid reference is primarily determined by the accuracy of the GPS reading in your phone or camera.
 In many cases it may be best to express as a 6 figure grid reference eg `NY273333` ie by removing the last two digits of each group.
@@ -43,11 +47,12 @@ click on that; if the image contains GPS info, the grid reference is displayed a
 
 * Mayank Lahiri's [easyexif](https://github.com/mayanklahiri/easyexif): A tiny ISO-compliant C++ EXIF parsing library. Copyright (c) 2010-2015 Mayank Lahiri
 * Jonathan Heathcote's [OS Coord](https://github.com/mossblaser/os_coord): A Simple OS Coordinate Transformation Library for C - with designated initializers removed
+* Paul Dixon's [GeoTools javascript coordinate transformations](http://www.nearby.org.uk/tests/GeoTools2.html)
+* More info available on Roger Muggleton's page at http://www.carabus.co.uk/ll_ngr.html
 * netalloy's [map pin icon](https://openclipart.org/detail/169839/map-pin) and [ICO Convert](http://icoconvert.com/)
 
 ## Ideas
 
-* Support Irish Grid References - see [BTO](https://www.bto.org/volunteer-surveys/birdatlas/methods/correct-grid-references/know-your-place)
 * Support worldwide [Maidenhead Locator System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System) eg using this perl code [Ham::Locator](https://metacpan.org/pod/release/MEH/Ham-Locator-0.1000/lib/Ham/Locator.pm)
 * Display found data in selectable form
 * Add icon and about box to displayed window

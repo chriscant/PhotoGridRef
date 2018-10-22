@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="exif.h" />
+    <ClInclude Include="gt_irish.h" />
     <ClInclude Include="os_coord.h" />
     <ClInclude Include="os_coord_data.h" />
     <ClInclude Include="os_coord_math.h" />
@@ -164,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exif.cpp" />
+    <ClCompile Include="gt_irish.cpp" />
     <ClCompile Include="os_coord_ordinance_survey.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
