@@ -34,14 +34,14 @@ click on that; if the image contains GPS info, the grid reference is displayed a
 * To uninstall, hold down Shift when right-clicking on an image and select *Uninstall Grid Ref*;
   or double-click again on `PhotoGridRef.exe` in Windows Explorer.
 * You can then delete the file `PhotoGridRef.exe`
-* In Windows 7 the Grid Ref context menu item may only disappear after a reboot
+* In Windows 7+ the Grid Ref context menu item may only disappear after a reboot
 
 ## Compatibility
 
 * Can be installed by non-admin users
 * Should work in Windows 7+, both 32 bit and 64 systems
 * Tested in Windows 7 and Windows 10 64 bit
-* This repository is the source code of a Microsoft Visual Studio Community 2017 project
+* This repository is the source code of a Microsoft Visual Studio Community 2022 project
 
 ## Used with thanks
 
